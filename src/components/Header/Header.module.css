@@ -1,0 +1,27 @@
+.header_container{
+  background: #4542a4;
+  padding:10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:#fff;
+}
+
+.header_container img{
+  width: 50px;
+}
+
+.header_container nav ul{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header_container nav ul li{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+}
+.header_container nav ul li:last-child{
+  padding-right: 10px;
+}
