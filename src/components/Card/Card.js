@@ -8,6 +8,16 @@ const Card = () => {
         <h3></h3>
         <p></p>
       </li>
+      <li>
+        <img></img>
+        <h3></h3>
+        <p></p>
+      </li>
+      <li>
+        <img></img>
+        <h3></h3>
+        <p></p>
+      </li>
     </div>
   )
 }
