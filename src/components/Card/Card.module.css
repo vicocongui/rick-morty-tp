@@ -1,0 +1,27 @@
+.carta {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border-radius: 15px;
+    margin: 2em;
+}
+.img {
+    padding: 0.5em 1em 1em 0.5em;
+    border-radius: 15px;
+}
+.titulo {
+    font-weight: bold;
+    padding: 0.5em;
+}
+.txt {
+    padding: 0.5em;
+    font-size: 16px;
+}
+.div {
+    display: flex;
+    align-items: center;
+}
