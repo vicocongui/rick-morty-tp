@@ -2,3 +2,17 @@
     align-items: center;
 
 }
+.card_wrapper {
+    padding: 30px;
+}
+.card_wrapper img {
+    width: 100%;
+}
+
+.grid { display: grid; grid-template-columns: repeat(12, 1fr); grid-column-gap: 30px; grid-row-gap: 40px;}
+.col_1 {grid-column: span 1;}
+.col_2 {grid-column: span 2;}
+.col_3 {grid-column: span 3;}
+.col_4 {grid-column: span 4;}
+.col_5 {grid-column: span 5;}
+.col_5 {grid-column: span 5;}
