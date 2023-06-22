@@ -32,11 +32,9 @@ const data = [
 const CardsContainer = () => {
   return ( 
   <section className={Style.card_wrapper}>
-    <div className='grid'>
     {data.map(({title, txt, url}) => (
       <Card title={title} txt={txt} url={url.original} />
     ))}
-    </div>
   </section>
   );
 };

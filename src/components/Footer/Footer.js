@@ -3,13 +3,15 @@ import style from './Footer.module.css';
 
 const Footer = () => {
   return (
-    <footer className={style.footer_container}>
+    <footer className={style.footer}>
+    <nav className={style.nav}>
       <ul>
-        <li><a src= "#home">Home</a></li>
-        <li><a src= "#home">Card</a></li>
-        <li><a src= "#home">Suscribite</a></li>
+        <li>Facebook</li>
+        <li>Instagram</li>
+        <li>Twitter</li>
       </ul>
-    </footer>
+    </nav>
+  </footer>
   )
 }
 

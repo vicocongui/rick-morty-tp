@@ -3,8 +3,8 @@ import style from './Header.module.css';
 
 const Header = ({title}) => {
   return <header className={style.header_container}>
-    <h1>
-      <img src="/assets/img/logo.png" alt="Logo" />
+    <h1 className={style.logo}>
+      SH
     </h1>
     <nav>
     <span>{title}</span>
