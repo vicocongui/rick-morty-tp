@@ -55,7 +55,14 @@
           margin-right: 0;
           margin-bottom: 1em;
         }
-      
+        .title {
+          margin-right: 0.2em;
+          margin-left: 1em;
+          font-weight: bolder;
+          color: rgb(237, 229, 8);
+          font-size: 60px;
+          align-items: center;
+        }
         .boton {
           padding: 10px 30px;
         }

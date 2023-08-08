@@ -1,13 +1,13 @@
 import React from 'react';
 import style from './Header.module.css';
 
-const Header = ({title}) => {
+const Header = () => {
+  
   return <header className={style.header_container}>
     <h1 className={style.logo}>
       SH
     </h1>
     <nav>
-    <span>{title}</span>
       <ul>
         <li><a src= "#home">Home</a></li>
         <li><a src= "#home">Card</a></li>
