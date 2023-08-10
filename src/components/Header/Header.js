@@ -1,15 +1,18 @@
 import React from 'react';
-import styles from './Header.module.css';
+import style from './Header.module.css';
 
 const Header = () => {
-  return <header className={styles.header_container}>
-    <h1>
-      <img src="/assets/logo512.png" alt="Logo" />
+  
+  return <header className={style.header_container}>
+    <h1 className={style.logo}>
+      SH
     </h1>
     <nav>
       <ul>
-        <li>Home</li>
-        <li>Contact</li>
+        <li><a src= "#home">Home</a></li>
+        <li><a src= "#home">Card</a></li>
+        <li><a src= "#home">Suscribite</a></li>
+        <li><a src= "#home">Footer</a></li>
       </ul>
     </nav>
   </header>;

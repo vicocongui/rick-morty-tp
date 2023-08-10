@@ -1,0 +1,43 @@
+.footer {
+  background: #000000;
+  height: 15vh;
+  position: relative;
+  margin: 0;
+}
+
+.nav {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-right: 10px;
+  color: rgb(237, 229, 8);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    height: 10vh;
+  }
+
+  .nav {
+    position: static;
+    transform: none;
+  }
+
+  ul {
+    justify-content: center;
+    padding-top: 20px;
+  }
+}
